@@ -6,23 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#031936">
-    <link rel="icon" href="static/img/app-icon.png">
+    <link rel="icon" href="/static/img/app-icon.png">
     <title>Health Assessment</title>
-    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="/static/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Martian+Mono&family=Roboto:wght@100;300;500&display=swap"
         rel="stylesheet">
-        query.min.js"></script>
-</head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    </head>
 
 <body>
     <section class="loading-screen">
         <section class="loading-screen-center-body">
             <div>
                 <img id="loading-screen-logo" src="" alt="">
-                <img src="static/img/loading.svg" style="width: 175px;" alt="">
+                <img src="/static/img/loading.svg" style="width: 175px;" alt="">
                 <h6 class="loading-text">Loading...</h6>
             </div>
         </section>
@@ -30,9 +30,9 @@
 
     <section class="main-page">
         <section class="center-body">
-            <button id="fullscreen-button" onclick="toggleFullScreen()"><img src="static/img/fullscreen.png"
+            <button id="fullscreen-button" onclick="toggleFullScreen()"><img src="//static/img/fullscreen.png"
                     alt=""></button>
-            <img src="static/img/app-icon.png" alt="logo"
+            <img src="/static/img/app-icon.png" alt="logo"
                 style="height: 150px;display: block;margin-left: auto;margin-right: auto;width: 150px;">
             <h2 style="text-align: center;color:#ffffff;font-weight: 600;letter-spacing:5px ;font-style:bold;">Mental Health <br>Predictor</h2>
             <h5 class="note-warning" style="font-size:20px; text-align:center;" ><span style="display: flex;justify-content: center;font-size: 30px;">Minor Project
@@ -42,7 +42,7 @@
                   <br>Yashwant Singh</h5>
             <h3 style="text-align: center;color: wheat;font-weight: 400; position:absolute; left:37%; top:67%;">Start Assessment:</h3>
             <section class="inner-body" style="position:absolute; top:75%; ">
-                <button id="mental-health-button">Mental Health<img src="static/img/mental-icon.png" alt=""
+                <button id="mental-health-button">Mental Health<img src="/static/img/mental-icon.png" alt=""
                         style="height: 32px;margin-left: 18px;"></button>
                 
             </section>
@@ -53,7 +53,7 @@
 
     <section hidden class="disease-prediction-page">
         <section class="center-body">
-            <img src="static/img/app-icon.png" alt="logo"
+            <img src="/static/img/app-icon.png" alt="logo"
                 style="height: 150px;display: block;margin-left: auto;margin-right: auto;width: 150px;">
             <h2 style="text-align: center;color: white;font-weight: 500;">Disease Prediction</h2>
             <h3 id="enter-symptoms">Please Enter Your Symptoms: <br> ( Enter at least 5 symptoms )</h3>
@@ -82,19 +82,19 @@
                 <h1 class="main-prediction"></h1>
             </div>
             <div class="disease-overview">
-                <h1 class="symptoms-title">Overview<img class="symptoms-images" src="static/img/overview-icon.png"
+                <h1 class="symptoms-title">Overview<img class="symptoms-images" src="/static/img/overview-icon.png"
                         alt=""></h1>
                 <h3 class="prediction-explanation"></h3>
             </div>
             <div class="disease-symptoms">
                 <div>
-                    <h1 class="symptoms-title">Symptoms<img class="symptoms-images" src="static/img/symptom-icon.png"
+                    <h1 class="symptoms-title">Symptoms<img class="symptoms-images" src="/static/img/symptom-icon.png"
                             alt=""></h1>
                     <div class="symptoms-body"></div>
                 </div>
             </div>
             <div class="disease-treatment">
-                <h1 class="symptoms-title">Treatment<img class="symptoms-images" src="static/img/treatment-icon.png"
+                <h1 class="symptoms-title">Treatment<img class="symptoms-images" src="/static/img/treatment-icon.png"
                         alt=""></h1>
                 <h3 class="treatment-body"></h3>
             </div>
@@ -105,7 +105,7 @@
     <!-- Mental Health Prediction Section Start -->
     <section hidden class="mental-health-prediction-page">
         <section class="center-body">
-            <img src="static/img/app-icon.png" alt="logo"
+            <img src="/static/img/app-icon.png" alt="logo"
                 style="height: 150px;display: block;margin-left: auto;margin-right: auto;width: 150px;">
             <h2 style="text-align: center;color: white;font-weight: 500;margin: 20px 0 0 0;">Mental Health Assessment</h2>
             <h3 id="start-asses" style="text-align: center;color: wheat;font-weight: 400;">Start Your Assessment:</h3>
@@ -1809,11 +1809,11 @@
                 <section class="mental-health-loading">
                     <div id="loadingBarContainer-2">
                         <div class="mental-loading-icon-container">
-                            <img src="static/img/white-circle.png" alt="">
-                            <img style="height: 95px;" src="static/img/artificial-intelligence.png" alt="">
+                            <img src="/static/img/white-circle.png" alt="">
+                            <img style="height: 95px;" src="/static/img/artificial-intelligence.png" alt="">
                             <img style="height: 100px;transform: translate(-44%, -47%);"
-                                src="static/img/men-lod-mag.svg" alt="">
-                            <img style="height: 175px;" src="static/img/loading.svg" alt="">
+                                src="/static/img/men-lod-mag.svg" alt="">
+                            <img style="height: 175px;" src="/static/img/loading.svg" alt="">
                         </div>
                         <div class="progress-bar">
                             <div class="progress-2"></div>
@@ -1968,6 +1968,6 @@
         </section>
     </section>
 </body>
-<script src="static/js/index.js"></script>
+<script src="/static/js/index.js"></script>
 
 </html>
