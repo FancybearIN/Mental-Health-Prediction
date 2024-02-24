@@ -56,9 +56,7 @@ The project includes various images and visualizations to enhance the user exper
 
 <img src="./static/img/output_img.jpeg"  width=250px>
 
-##a 
 
-<img src="./static/img/output_img.jpeg"  width=250px>
 
 
 
