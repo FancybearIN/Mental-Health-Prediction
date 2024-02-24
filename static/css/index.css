@@ -7,7 +7,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
-  background-image: url(/static/img/download.png);
+  background-image: url(../img/download.png);
 }
 
 #fullscreen-button {
@@ -116,11 +116,11 @@ body {
   position: absolute;
 }
 .disease-prediction-page > section {
-  background-image: url(/static/img/disease-bg.jpg);
+  background-image: url(../img/disease-bg.jpg);
   background-size: cover;
 }
 .mental-health-prediction-page > section {
-  background-image: url(/static/img/mental-bg.jpg);
+  background-image: url(../img/mental-bg.jpg);
   background-size: cover;
 }
 
@@ -152,7 +152,7 @@ body {
   padding: 30px 10px;
   margin: 11px 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  background-image: url(/static/img/main-bg.jpg);
+  background-image: url(../img/main-bg.jpg);
   background-repeat: no-repeat;
   background-color: #ffffff;
   border: 10px solid #01132b;
@@ -167,7 +167,7 @@ body {
   padding: 30px 10px;
   margin: 11px 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  background-image: url(/static/img/main-bg.jpg);
+  background-image: url(../img/main-bg.jpg);
   background-repeat: no-repeat;
   background-color: #ffffff;
   border: 10px solid #01132b;
